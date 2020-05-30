@@ -27,7 +27,7 @@ class Portfolio extends Component {
                                    
                                       <div className="col-md-6 mb-10 p-10">
                                       <div className="card" id={project.id}>
-                                          <a href={project.link}><img src={process.env.PUBLIC_URL + project.image}
+                                          <a href={project.link}><img src={project.image}
                                               className="card-img-top" alt={project.name} /></a>
                                           <div className="card-body" >
                                               <p className="card-text" >{project.name}</p>
