@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Portfolio from "./components/pages/Portfolio/index";
-import Resume from "./components/pages/Resume/old";
+import Resume from "./components/pages/Resume/index";
 import About from "./components/pages/About/index";
 import Contact from "./components/pages/Contact/index";
 

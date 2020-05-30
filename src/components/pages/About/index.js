@@ -12,7 +12,7 @@ function About() {
       </div>
     </div>
     <div className="row" style={{margin: 0}}>
-    <section class="col-md-6 pinkbg" id="introduction">
+    <section class="col-md-6 pinkbg" id="introduction">npm
         <div class="jumbotron jumbotron-fluid pinkbg">
           <div class="container pinkbg">
             <div class="card mb-3">
