@@ -10,14 +10,14 @@
         "id": 2,
         "name": "Password Generator",
         "image": "/react_portfolio/Images/password.jpg",
-        "link": "https://kimberlitompkins.github.io/passwordGenerator"
+        "link": "https://kimberlitompkins.github.io/Password-Generator/"
         
       },
       {
         "id": 3,
         "name": "jQuery Quiz",
         "image": "/react_portfolio/Images/question.jfif",
-        "link": "https://kimberlitompkins.github.io/quiz"
+        "link": " https://kimberlitompkins.github.io/Quiz/"
         
       },
       {
