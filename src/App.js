@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Portfolio from "./components/pages/Portfolio/index";
 import Resume from "./components/pages/Resume/index";
@@ -8,7 +8,9 @@ import Contact from "./components/pages/Contact/index";
 
 function App() {
   return (
+    
     <Router>
+      <Switch>
       <div>
         <NavTabs />
         <Route exact path="/about">
@@ -27,7 +29,9 @@ function App() {
           <About />
         </Route>
       </div>
+      </Switch>
     </Router>
+    
   );
 }
 
