@@ -18,7 +18,7 @@ function About() {
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="col-md-4">
-                  <img src="images/me_2.jpg" class="card-img m-3" alt="thisisme"/>
+                  <img src={process.env.PUBLIC_URL + "/images/me_2.jpg"} class="card-img m-3" alt="thisisme"/>
                 </div>
                 <div class="col-md-8 p-3">
                   <div class="card-body">
