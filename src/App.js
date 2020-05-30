@@ -11,9 +11,6 @@ function App() {
     <Router>
       <div>
         <NavTabs />
-        <Route exact path="/">
-          <About />
-        </Route>
         <Route exact path="/about">
           <About />
         </Route>
@@ -25,6 +22,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/">
+          <About />
         </Route>
       </div>
     </Router>
