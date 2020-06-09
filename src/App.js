@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import NavTabs from "./components/NavTabs";
 import Portfolio from "./components/pages/Portfolio/index";
 import Resume from "./components/pages/Resume/index";
 import About from "./components/pages/About/index";
 import Contact from "./components/pages/Contact/index";
+import Hero from "./components/Hero/index";
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
     <Router>
       
       <div>
-        <NavTabs />
         <Switch>
         <Route exact path="/about">
           <About />
@@ -27,7 +26,8 @@ function App() {
           <Contact />
         </Route>
         <Route path="/">
-          <About />
+          <Hero />
+          <Portfolio />
         </Route>
         </Switch>
       </div>

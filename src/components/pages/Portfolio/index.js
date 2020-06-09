@@ -11,16 +11,16 @@ class Portfolio extends Component {
         return (
             <div classNameName="container m-25 p-10">
             <div className="row">
-                <div className="col-md-12 headliner">
-        
-                    <h1>My Portfolio</h1>
-        
-                </div>
+                {/* <div className="col-md-12 headliner"> */}
+{/*          */}
+                    {/* <h1>My Portfolio</h1> */}
+{/*          */}
+                {/* </div> */}
             </div>
             <div className="row">
                 <div className="col-md-2>"></div>
                 <div className="col-md-8">
-                    <section className="jumbotron pinkbg" id="projects">
+                    <section className="jumbotron" id="projects">
                         <div className="container">
                             <div className="row">
                                {this.state.projects.map(project => (
