@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link, useLocation } from "react-router-dom";
 import projects from "../../projects.json";
 import "./style.css";
 
@@ -23,7 +24,8 @@ class Projects extends Component {
             <p class="lead">
             An application using MongoDB, Express, React.js, and Node.js to create a historical application for those in the Denver Area.
             Navigate through the decades and learn about the city history. Register to add and edit content.</p>
-            <a href="https://denverdecades.herokuapp.com/">Check it out</a>
+            <Link to="https://denverdecades.herokuapp.com/">Check it out!</Link>
+            
             <p>Contributors: Kimberli Tompkins, Maria Nevarez, Andrew Werner, Vanessa Pham</p>
             
             
