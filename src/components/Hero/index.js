@@ -12,7 +12,7 @@ function Hero() {
             <div class="float-right">
               <h1 class="headliner">Kimberli Tompkins</h1>
               <h3 class="headliner">Full Stack Web Developer</h3>
-              <h5 class="headliner">with years of experience with both</h5>
+              <h5 class="headliner">with years of experience in both</h5>
               <h5 class="headliner">Front End and Back End development.</h5>
               
             </div>

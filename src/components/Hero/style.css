@@ -13,6 +13,7 @@
   .headliner{
     color:wheat;
     text-shadow:1px 1px rgb(33, 2, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
   }
   .portImage{
     width:150px;
