@@ -9,7 +9,9 @@ class Projects extends Component {
 
   render() {
     return (
-      <div class="container">
+   
+      <div class="container" >
+          <h1 id="Projects">Projects</h1>
         <hr class="featurette-divider" />
 
         <div class="row featurette">
@@ -72,6 +74,7 @@ class Projects extends Component {
           </div>
         </div>
       </div>
+     
     );
   }
 }
