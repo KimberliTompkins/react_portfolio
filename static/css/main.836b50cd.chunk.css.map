@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,QACE,wBACF,CACA,WACE,aACF","file":"main.836b50cd.chunk.css","sourcesContent":[".pinkbg{\n  background-color:rgb(247, 233, 247);\n}\n.headliner{\n  color: rgb(87, 46, 126);\n}\n\n"]}
