@@ -30,7 +30,7 @@ function App() {
         </Route>
         <Route path="/">
           <Hero />
-          {/* <Projects /> */}
+          <Projects />
         </Route>
         </Switch>
       </div>
