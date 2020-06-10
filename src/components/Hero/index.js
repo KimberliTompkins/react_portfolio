@@ -2,13 +2,14 @@ import React from "react";
 import "./style.css";
 import NavTabs from "../NavTabs/index";
 
+
 function Hero() {
   return (
     <section class="bgimage">
       <NavTabs />
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 p-2">
+          <div class="col-10 col-md-10 col-sm-10 col-xs-10 p-2">
             <div class="float-right">
               <h1 class="headliner">Kimberli Tompkins</h1>
               <h3 class="headliner">Full Stack Web Developer</h3>
@@ -43,6 +44,7 @@ lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BtaeOTjrCScul0HYK2stk6A%3D%3D"
         </div>
       </div>
     </section>
+    
   );
 }
 
