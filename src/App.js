@@ -6,6 +6,8 @@ import About from "./components/pages/About/index";
 import Contact from "./components/pages/Contact/index";
 import Hero from "./components/Hero/index";
 import Projects from "./components/Projects/index";
+import * as Scroll from 'react-scroll';
+import { Projects as scroll} from 'react-scroll'
 
 function App() {
   return (
