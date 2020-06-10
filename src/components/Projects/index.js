@@ -18,7 +18,7 @@ class Projects extends Component {
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">
-              Denver Through the Decades
+              Denver Through the Decades.{" "}
               <span class="text-muted">It’ll blow your mind.</span>
             </h2>
             <p class="lead">
@@ -39,7 +39,7 @@ class Projects extends Component {
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">
-              Colorado Trail Finder
+              Colorado Trail Finder.{" "}
               <span class="text-muted">Get your hike on.</span>
             </h2>
             <p class="lead">
@@ -61,7 +61,7 @@ class Projects extends Component {
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">
-              BoozyFood. <span class="text-muted">Create your perfect "quarantazine" without leaving home!</span>
+              BoozyFood.{" "}<span class="text-muted">Create your perfect "quarantazine" without leaving home!</span>
             </h2>
             <p class="lead">
             Use the ingredients that you have at home to generate a recipe for you so you don't have to go outside during the COVID-19 quarantine. Includes a random drink generator.

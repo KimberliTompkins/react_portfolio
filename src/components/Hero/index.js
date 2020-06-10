@@ -24,6 +24,7 @@ function Hero() {
               class="card-img m-3 portImage"
               alt="thisisme"
             />
+            <div>
             <a
               href="https://github.com/KimberliTompkins"
               class="list-group-item-action m-2 headliner"
@@ -38,7 +39,8 @@ function Hero() {
             >
               <ion-icon name="logo-linkedin"></ion-icon> Linkedin
             </a>
-            <br />
+            </div>
+          
           </div>
         </div>
       </div>
