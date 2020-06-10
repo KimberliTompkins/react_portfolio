@@ -32,8 +32,7 @@ function Hero() {
               <ion-icon name="logo-github"></ion-icon> Github
             </a>
             <a
-              href="https://www.linkedin.com/in/kimberli-tompkins-4a2443a5/?
-lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BtaeOTjrCScul0HYK2stk6A%3D%3D"
+              href="https://www.linkedin.com/in/kimberli-tompkins-4a2443a5"
               class="list-group-item-action headliner"
               target="_blank"
             >
