@@ -5,7 +5,7 @@ import NavTabs from "../NavTabs/index";
 
 function Hero() {
   return (
-    <section class="bgimage">
+    <section class="bgimage" id="home">
       <NavTabs />
       <div class="container-fluid">
         <div class="row">

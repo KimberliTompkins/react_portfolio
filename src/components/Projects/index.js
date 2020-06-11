@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { HashLink as Link } from 'react-router-hash-link';
 import projects from "../../projects.json";
 import "./style.css";
 
@@ -12,7 +12,12 @@ class Projects extends Component {
     return (
    
       <div class="container" >
-          <h5 id="projects">Projects</h5>
+         <hr  />
+         <div class="row" id="projects">
+          <h4 class="headliner">Projects</h4>
+          <Link to="/#home" class="p-1 ml-1">Home</Link>
+          <Link to="/#contact" class="p-1">Contact</Link>
+        </div>  
         <hr class="featurette-divider" />
 
         <div class="row featurette">

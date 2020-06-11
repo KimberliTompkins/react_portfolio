@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Portfolio from "./components/pages/Portfolio/index";
 import Resume from "./components/pages/Resume/index";
 import About from "./components/pages/About/index";
-import Contact from "./components/pages/Contact/index";
+import Contact from "./components/Contact/index";
 import Hero from "./components/Hero/index";
 import Projects from "./components/Projects";
 
@@ -29,6 +29,7 @@ function App() {
         <Route path="/">
           <Hero />
           <Projects />
+          <Contact />
         </Route>
         </Switch>
       </div>
