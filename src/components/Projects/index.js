@@ -12,7 +12,7 @@ class Projects extends Component {
     return (
    
       <div class="container" >
-          <h5 id="Projects">Projects</h5>
+          <h5 id="projects">Projects</h5>
         <hr class="featurette-divider" />
 
         <div class="row featurette">

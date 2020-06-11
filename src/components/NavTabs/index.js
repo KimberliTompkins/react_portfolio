@@ -1,5 +1,6 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 function NavTabs() {
   const location = useLocation();
 
@@ -15,8 +16,8 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/project"
-          className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}
+          to="/#projects"
+          className={location.pathname === "/#projects" ? "nav-link active" : "nav-link"}
         >
           Projects
   </Link>
