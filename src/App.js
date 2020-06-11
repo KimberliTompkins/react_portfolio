@@ -6,6 +6,7 @@ import About from "./components/pages/About/index";
 import Contact from "./components/Contact/index";
 import Hero from "./components/Hero/index";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer/index";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Hero />
           <Projects />
           <Contact />
+          <Footer />
         </Route>
         </Switch>
       </div>

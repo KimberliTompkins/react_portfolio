@@ -11,10 +11,10 @@ class Projects extends Component {
   render() {
     return (
    
-      <div class="container" >
+      <div id="projects" class="container-fluid">
          <hr  />
-         <div class="row" id="projects">
-          <h4 class="headliner">Projects</h4>
+         <div class="row">
+          <h4 class="sectionText">Projects</h4>
           <Link to="/#home" class="p-1 ml-1">Home</Link>
           <Link to="/#contact" class="p-1">Contact</Link>
         </div>  

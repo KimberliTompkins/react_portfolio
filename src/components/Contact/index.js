@@ -4,13 +4,13 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 function Contact(props) {
   return (
-    <div className="container m-10 p-10" >
+    <div className="container-fluid m-10 p-10" id="contact">
     <div className="row">
     <hr class="featurette-divider" />
         <div className="col-md-12 ">
         <hr class="featurette-divider" />
-        <div className="row" id="contact">
-            <h4 className="headliner">Let's Chat</h4>
+        <div className="row" >
+            <h4 className="sectionText">Let's Chat</h4>
             <Link to="/#home" class="p-1 ml-1">Home</Link>
             <Link to="/#projects" class="p-1 ml-1">Projects</Link>
         </div>

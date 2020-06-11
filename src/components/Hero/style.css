@@ -15,6 +15,11 @@
     text-shadow:1px 1px rgb(33, 2, 36);
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
   }
+  .sectionText{
+    color:wheat;
+    text-shadow:.5px .5px rgb(33, 2, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  }
   .portImage{
     width:150px;
     height:150px;
