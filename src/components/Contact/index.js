@@ -18,8 +18,8 @@ function Contact(props) {
         </div>
         
     </div>
-    <div className="row" >
-        <div className="col-md-2" ></div>
+    <div className="row" style={{backgroundColor:"#FAF3DD"}}>
+        <div className="col-md-2"  ></div>
         
         <section className="col-md-8" id="contactform"  >
             
