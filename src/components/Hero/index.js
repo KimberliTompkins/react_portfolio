@@ -10,7 +10,7 @@ function Hero() {
       <div class="container-fluid">
         <div class="row">
           <div class="col-10 col-md-10 col-sm-10 col-xs-10 p-2">
-            <div class="float-right">
+            <div class="float-right text-center">
               <h1 class="headliner">Kimberli Tompkins</h1>
               <h3 class="headliner">Full Stack Web Developer</h3>
               <h5 class="headliner">with years of experience in both</h5>
@@ -18,28 +18,13 @@ function Hero() {
               
             </div>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 ">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center ">
+            
             <img
               src="/react_portfolio/Images/KT.png"
-              class="card-img m-3 portImage"
-              alt="thisisme"
+              class="card-img m-3 portImage "
+              alt="this is me"
             />
-            <div>
-            <a
-              href="https://github.com/KimberliTompkins"
-              class="list-group-item-action m-2 headliner"
-              target="_blank"
-            >
-              <ion-icon name="logo-github"></ion-icon> Github
-            </a>
-            <a
-              href="https://www.linkedin.com/in/kimberli-tompkins-4a2443a5"
-              class="list-group-item-action headliner"
-              target="_blank"
-            >
-              <ion-icon name="logo-linkedin"></ion-icon> Linkedin
-            </a>
-            </div>
           
           </div>
         </div>

@@ -10,9 +10,6 @@ function NavTabs() {
        <div class="container-fluid">
         <ul className="nav nav-inverse nav-fixed-top">
             <li className="nav-item">
-                <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}> Home </Link>
-            </li>
-            <li className="nav-item">
               <Link to="/#projects" className={location.pathname === "/#projects" ? "nav-link active" : "nav-link"}> Projects </Link>
             </li>
             <li className="nav-item">
