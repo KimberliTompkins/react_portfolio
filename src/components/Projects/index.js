@@ -1,22 +1,14 @@
-import React, { Component } from "react";
-import { HashLink as Link } from 'react-router-hash-link';
-import projects from "../../projects.json";
+import React from "react";
 import "./style.css";
 
-class Projects extends Component {
-  state = {
-    projects,
-  };
+function Projects () {
 
-  render() {
     return (
    
       <div id="projects" class="container-fluid">
          <hr  />
          <div class="row">
           <h4 class="sectionText">Projects</h4>
-          <Link to="/#home" class="p-1 ml-1">Home</Link>
-          <Link to="/#contact" class="p-1">Contact</Link>
         </div>  
         <hr class="featurette-divider" />
 
@@ -82,7 +74,7 @@ class Projects extends Component {
       </div>
      
     );
-  }
+ 
 }
 
 export default Projects;

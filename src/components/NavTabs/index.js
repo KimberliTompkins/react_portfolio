@@ -6,15 +6,18 @@ function NavTabs() {
 
   return (
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
        <div class="container-fluid">
-        <ul className="nav nav-inverse nav-fixed-top">
+        <ul className="nav nav-inverse nav-fixed-top" style={{"position": "fixed"}}>
+        <li className="nav-item">
+             <Link to="/#home" className={location.pathname === "/#home" ? "nav-link active" : "nav-link"}> Home </Link>
+           </li>
             <li className="nav-item">
               <Link to="/#projects" className={location.pathname === "/#projects" ? "nav-link active" : "nav-link"}> Projects </Link>
             </li>
             <li className="nav-item">
-             <Link to="/#contact" className={location.pathname === "/#contact" ? "nav-link active" : "nav-link"}> Contact </Link>
-           </li>
+              <Link to="/#contact" className={location.pathname === "/#contact" ? "nav-link active" : "nav-link"}> Contact</Link>
+            </li>
            <li className="nav-item">
            <Link to="/Resume" className={location.pathname === "/Resume" ? "nav-link active" : "nav-link"}> Resume </Link>
          </li>
