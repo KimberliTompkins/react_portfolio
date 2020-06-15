@@ -20,8 +20,9 @@ function Projects () {
             </h2>
             <p class="lead">
             An application using MongoDB, Express, React.js, and Node.js to create a historical application for those in the Denver Area.
-            Navigate through the decades and learn about the city history. Register to add and edit content.</p>
-            <a href="https://denverdecades.herokuapp.com/">Check it out</a>
+            Navigate through the decades and learn about the city history. Register to add and edit content.   <a href="https://denverdecades.herokuapp.com/">Check it out</a>
+ </p>
+            <a href="https://github.com/mnevarez01/DenverDecades">Github</a>
             <p>Contributors: Kimberli Tompkins, Maria Nevarez, Andrew Werner, Vanessa Pham</p>
             
             
@@ -41,11 +42,12 @@ function Projects () {
             </h2>
             <p class="lead">
              Find details about specific hiking trails in Colorado, including maps and weather. Login to mark your favorites.
-             A Full Stack application using JavaScript ES6, Node.js, Sequelize, Bootstrap, Mustache and several APIs.
+             A Full Stack application using JavaScript ES6, Node.js, Sequelize, Bootstrap, Mustache and several APIs.   <a href="https://colorado-trail-finder.herokuapp.com/">Check it out</a>
             </p>
-            
-            <a href="https://colorado-trail-finder.herokuapp.com/">Check it out</a>
-            <p>Contributors: Kimberli Tompkins and Todd Leslie</p>
+          
+
+            <a href="https://github.com/KimberliTompkins/Trail_Finder">Github</a>
+            <p>Contributors: Kimberli Tompkins, Todd Leslie, Cole Carter and Genet Worku</p>
  
           </div>
           <div class="col-md-5 order-md-1">
@@ -62,9 +64,10 @@ function Projects () {
             </h2>
             <p class="lead">
             Use the ingredients that you have at home to generate a recipe for you so you don't have to go outside during the COVID-19 quarantine. Includes a random drink generator.
-            A Front End application using JavaScript, JQuery, JQueryUI, BootStrap, AJAX plus theCocktaildb and Spoonacular APIs.  
+            A Front End application using JavaScript, JQuery, JQueryUI, BootStrap, AJAX plus theCocktaildb and Spoonacular APIs.    <a href="https://kimberlitompkins.github.io/BoozyFood/">Check it out</a>
             </p>
-            <a href="https://kimberlitompkins.github.io/BoozyFood/">Check it out</a>
+          
+            <a href="https://github.com/KimberliTompkins/BoozyFood">Github</a>
             <p>Contributors: Kimberi Tompkins, Ryan Siverson, Samantha Scott </p>
           </div>
           <div class="col-md-5">
