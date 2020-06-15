@@ -5,6 +5,7 @@ import Hero from "./components/Hero/index";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer/index";
 import Contact from "./components/Contact/index";
+import NavTabs from "./components/NavTabs/index";
 
 function App() {
   return (
@@ -13,13 +14,24 @@ function App() {
       
       <div>
         <Switch>
+        <Route exact path="/Projects">
+          <NavTabs />
+          <Projects />
+          <Footer />
+        </Route>
         <Route exact path="/Resume">
+          
           <Resume />
+          <Footer />
+        </Route>
+        <Route exact path="/Contact">
+           <NavTabs />
+           <Contact />
+           <Footer />
         </Route>
         <Route path="/">
+          <NavTabs />
           <Hero />
-          <Projects />
-          <Contact />
           <Footer />
         </Route>
         </Switch>

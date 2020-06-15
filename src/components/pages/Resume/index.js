@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Document,Page} from 'react-pdf/dist/entry.webpack';
 import samplePDF from './Resume.pdf';
 import { pdfjs } from 'react-pdf';
+import NavTabs from "../../NavTabs/index";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
@@ -13,6 +14,7 @@ export default function Resume() {
   }
 
   return (
+   <><NavTabs />
     <Document
       file={samplePDF}
       onLoadSuccess={onDocumentLoadSuccess}
@@ -27,5 +29,6 @@ export default function Resume() {
         ),
       )}
     </Document>
+    </>
   );
 }
