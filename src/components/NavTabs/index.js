@@ -1,15 +1,15 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
-// import "./style.css";
+ import "./style.css";
 function NavTabs() {
   const location = useLocation();
 
   return (
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-       <div class="container-fluid">
-        <ul className="nav nav-inverse nav-fixed-top" style={{"position": "fixed"}}>
+    <div className="container-fluid wrapper">
+    <nav className="nav nav-expand-lg" >
+      
+        <ul className="nav nav-inverse " >
         <li className="nav-item">
              <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}> Home </Link>
            </li>
@@ -23,8 +23,9 @@ function NavTabs() {
            <Link to="/Resume" className={location.pathname === "/Resume" ? "nav-link active" : "nav-link"}> Resume </Link>
          </li>
         </ul> 
-      </div>
+     
 </nav> 
+</div>
   );   
 
 }
