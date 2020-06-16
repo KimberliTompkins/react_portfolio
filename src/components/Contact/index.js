@@ -1,22 +1,33 @@
 import React from "react";
 
+
+
 function Contact() {
   return (
-    <section id="contact">
-      <div className="container-fluid m-10 p-10">
-        <hr class="featurette-divider" />
+    <div id="projects" class="container-fluid">
+    {/* <hr  /> */}
+    {/* <div class="row"> */}
+     {/* <h4 class="sectionText">Projects</h4> */}
+   {/* </div>   */}
+   {/* <hr class="featurette-divider" /> */}
 
-        <h4 className="sectionText">Contact</h4>
-        <hr class="featurette-divider" />
-        <div className="row">
-          <div className="col-md-12 ">
-            <div className="row" style={{ backgroundColor: "#FAF3DD" }}>
-              <div className="col-md-2"></div>
-              <div
-                className="jumbotron jumbotron-fluid pb-30;"
-                style={{ backgroundColor: "#FAF3DD" }}
-              >
-                <h4 className="p-3">Let's Chat</h4>
+   <div className="row featurette" >
+     <div className="col-md-7 order-md-1 mt-2">
+       <p className="lead">
+       I'm a Web Developer with a number of years experience behind the keyboard.</p>
+      <p className="lead">I have worked with everything from ColdFusion to React and so much in between. </p> 
+      <p className="lead">On the personnel side I am a proud Navy Veteran and I fill my time with volunteer work in the Veteran community.</p>
+     </div>
+     <div className="col-md-5">
+     <img src="/react_portfolio/Images/aboutMe.png" alt="aboutme"class="img-thumbnail"></img>
+     </div>
+   </div>
+
+   {/* <hr className="featurette-divider" /> */}
+
+   <div className="row featurette">
+   <div className="col-md-5">
+ 
                 <div
                   className="container p-3"
                   style={{ backgroundColor: "#FAF3DD" }}
@@ -45,7 +56,7 @@ function Contact() {
                     </div>
                     <button
                       type="submit"
-                      className="btn btn-primary"
+                      className="btn btn-info"
                       style={{ marginBottom: 10 }}
                     >
                       Submit
@@ -68,13 +79,55 @@ function Contact() {
                     </div>
                   </form>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+</div>
+     <div className="col-md-7 order-md">
+       <h2 className="featurette-heading">
+         Skills.{" "}
+        
+       </h2>
+       <div className="row">
+       <div className="col-md-4">
+       <p className="lead">
+         <ul>
+           <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>jQuery</li>
+            <li>ES6+</li>
+            <li>React.js</li>
+            <li>ColdFusion</li>
+          </ul>
+       </p>
+       </div>
+       <div className="col-md-4">
+   <p className="lead">
+     <ul>
+       
+        <li>My SQL</li>
+        <li>MS SQL</li>
+        <li>MongoDB,</li>
+        <li>Sequelize</li>
+      
+     </ul>
+   </p>
+   </div>
+   <div className="col-md-4">
+   <p className="lead">
+     <ul>
+        <li>CSS</li>
+        <li>Bootstrap CSS</li>
+        <li>Handlebars</li>
+      
+     </ul>
+   </p>
+   </div>
+   </div>
+
+     </div>
+   </div>
+ </div>
+
+);
+
 }
 
 export default Contact;
