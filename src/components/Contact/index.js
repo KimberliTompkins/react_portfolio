@@ -19,7 +19,7 @@ function Contact() {
       <p className="lead">On the personnel side I am a proud Navy Veteran and I fill my time with volunteer work in the Veteran community.</p>
      </div>
      <div className="col-md-5">
-     <img src="/react_portfolio/Images/aboutMe.png" alt="aboutme"class="img-thumbnail"></img>
+     <img src="/Images/aboutMe.png" alt="aboutme"class="img-thumbnail"></img>
      </div>
    </div>
 

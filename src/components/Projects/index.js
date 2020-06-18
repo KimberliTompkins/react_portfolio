@@ -28,7 +28,7 @@ function Projects () {
             
           </div>
           <div className="col-md-5">
-          <a href="https://denverdecades.herokuapp.com"><img src="/react_portfolio/Images/Denver_Decades.jpg" alt="DenverDecades"class="img-thumbnail"></img></a>
+          <a href="https://denverdecades.herokuapp.com"><img src="/Images/Denver_Decades.jpg" alt="DenverDecades"class="img-thumbnail"></img></a>
           </div>
         </div>
 
@@ -51,7 +51,7 @@ function Projects () {
  
           </div>
           <div className="col-md-5 order-md-1">
-          <a href="https://colorado-trail-finder.herokuapp.com/"><img src="/react_portfolio/Images/Trail_finder.png" alt="TrailFinder" class="img-thumbnail"></img></a>
+          <a href="https://colorado-trail-finder.herokuapp.com/"><img src="/Images/Trail_finder.png" alt="TrailFinder" class="img-thumbnail"></img></a>
           </div>
         </div>
 
@@ -71,7 +71,7 @@ function Projects () {
             <p>Contributors: Kimberi Tompkins, Ryan Siverson, Samantha Scott </p>
           </div>
           <div className="col-md-5">
-          <a href="https://kimberlitompkins.github.io/BoozyFood/"><img src="/react_portfolio/Images/BoozyFood.jpg" alt="BoozyFood" class="img-thumbnail"></img></a>
+          <a href="https://kimberlitompkins.github.io/BoozyFood/"><img src="/Images/BoozyFood.jpg" alt="BoozyFood" class="img-thumbnail"></img></a>
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ function Hero() {
               <h5 class="headliner">with years of experience in both</h5>
               <h5 class="headliner">Front End and Back End development.</h5>
               <img
-                src="/react_portfolio/Images/KT.png"
+                src="/Images/KT.png"
                 class="card-img m-3 portImage "
                 alt="this is me"
               />
