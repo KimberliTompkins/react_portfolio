@@ -9,36 +9,14 @@ import NavTabs from "./components/NavTabs/index";
 
 function App() {
   return (
-    
     <Router>
-      
-      <div>
-        <Switch>
-        <Route exact path="/Projects">
-          <NavTabs />
-          <Projects />
-          <Footer />
-        </Route>
-        <Route exact path="/Resume">
-          
-          <Resume />
-          <Footer />
-        </Route>
-        <Route exact path="/Contact">
-           <NavTabs />
-           <Contact />
-           <Footer />
-        </Route>
-        <Route path="/">
-          <NavTabs />
-          <Hero />
-          <Footer />
-        </Route>
-        </Switch>
-      </div>
-     
+      <Route path="/">
+        <Hero />
+        <Contact />
+        <Projects />
+        {/* <Footer /> */}
+      </Route>
     </Router>
-    
   );
 }
 

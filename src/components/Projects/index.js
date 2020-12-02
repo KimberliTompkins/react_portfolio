@@ -5,13 +5,38 @@ function Projects () {
 
     return (
     
-      <div id="projects" class="container-fluid">
-         {/* <hr  /> */}
-         {/* <div class="row"> */}
-          {/* <h4 class="sectionText">Projects</h4> */}
-        {/* </div>   */}
-        {/* <hr class="featurette-divider" /> */}
+    
+    
+         <div class="container-fluid projectsContainer">
+            <div class="d-flex justify-content-center flex-row  bd-highlight mb-3">
+            <h1 className="featurette-heading" >
+           Projects</h1>
+        </div>
+    
+        
+     
+      
+        {/* <div className="row featurette">
+          <div className="col-md-7 order-md-2">
+            <h2 className="featurette-heading" >
+              Wild Joy Creations.{" "}
+              <span className="text-muted">Crafty Crafty Crafty</span>
+            </h2>
+            <p className="lead">
+            Customized gifts for life’s celebrations and memorable moments.
+             A public facing customer website developed in React  <a href="http://wildjoycreations">Check it out</a>
+            </p>
+          
 
+            <a href="https://github.com/KimberliTompkins/WildJoy_Creations">Github</a>
+            
+          </div>
+          <div className="col-md-5 order-md-1">
+          <a href="https://colorado-trail-finder.herokuapp.com/"><img src="/Images/wildjoy.png" alt="wildjoy" class="img-thumbnail"></img></a>
+          </div>
+        </div>
+
+        <hr className="featurette-divider" />
         <div className="row featurette">
           <div className="col-md-7">
             <h2 className="featurette-heading">
@@ -73,7 +98,7 @@ function Projects () {
           <div className="col-md-5">
           <a href="https://kimberlitompkins.github.io/BoozyFood/"><img src="/Images/BoozyFood.jpg" alt="BoozyFood" class="img-thumbnail"></img></a>
           </div>
-        </div>
+        </div> */}
       </div>
      
     );

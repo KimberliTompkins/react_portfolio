@@ -1,27 +1,34 @@
 .bgimage {
     width:100%;
-    height:800px;
-    background: url('/Images/Hero3.jpg');
+    height:600px;
+    background: url('/Images/Hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    background-attachment: fixed;
+    background-attachment:absolute;
+    
   }
   .bgcolor{
-    background-color: wheat;
+    /* background-color: wheat; */
+    background-color: rgb(0,21,42)
   }
   .headliner{
-    color:wheat;
+    color:rgb(150,193,199);
     text-shadow:1px 1px rgb(33, 2, 36);
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif ;  */
+
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family: cursive */
+   
   }
   .sectionText{
     color:wheat;
     text-shadow:.5px .5px rgb(33, 2, 36);
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif ; */
+    /* font-family: cursive */
   }
   .portImage{
-    width:150px;
-    height:150px;
+    width:300px;
+    height:300px;
   }
-  
+  *{font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}
