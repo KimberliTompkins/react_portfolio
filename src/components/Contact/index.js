@@ -7,7 +7,7 @@ function Contact() {
     <div class="container-fluid contactContainer" >
      
       <div class="d-flex justify-content-center flex-row  bd-highlight">
-      <h1 className="featurette-heading" >About Me </h1>
+      <h1 className="featurette-heading mt-5" >About Me </h1>
         </div>
 
       <div class="d-flex justify-content-center flex-row  bd-highlight mb-3">
@@ -37,11 +37,12 @@ function Contact() {
   <div class="p-2 bd-highlight">
   <p className="lead">
                 <ul>
+                  <li>React.js</li>
+                  <li>Redux</li>
                   <li>JavaScript</li>
                   <li>Node.js</li>
                   <li>jQuery</li>
                   <li>ES6+</li>
-                  <li>React.js</li>
                   <li>ColdFusion</li>
                 </ul>
               </p>

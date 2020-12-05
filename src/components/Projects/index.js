@@ -4,19 +4,19 @@ import "./style.css";
 function Projects () {
 
     return (
-    
-    
-    
+     
+      
          <div class="container-fluid projectsContainer">
             <div class="d-flex justify-content-center flex-row  bd-highlight mb-3">
-            <h1 className="featurette-heading" >
+              
+            <h1 className="featurette-heading mt-5 mb-3" >
            Projects</h1>
         </div>
     
         
-     
+        
       
-        {/* <div className="row featurette">
+        <div className="row featurette ">
           <div className="col-md-7 order-md-2">
             <h2 className="featurette-heading" >
               Wild Joy Creations.{" "}
@@ -36,7 +36,7 @@ function Projects () {
           </div>
         </div>
 
-        <hr className="featurette-divider" />
+        <hr className="featurette-divider mb-5" />
         <div className="row featurette">
           <div className="col-md-7">
             <h2 className="featurette-heading">
@@ -57,7 +57,7 @@ function Projects () {
           </div>
         </div>
 
-        <hr className="featurette-divider" />
+        <hr className="featurette-divider mb-5" />
 
         <div className="row featurette">
           <div className="col-md-7 order-md-2">
@@ -82,24 +82,7 @@ function Projects () {
 
         <hr className="featurette-divider" />
 
-        <div className="row featurette">
-          <div className="col-md-7">
-            <h2 className="featurette-heading">
-              BoozyFood.{" "}<span class="text-muted">Create your perfect "quarantazine" without leaving home!</span>
-            </h2>
-            <p className="lead">
-            Use the ingredients that you have at home to generate a recipe for you so you don't have to go outside during the COVID-19 quarantine. Includes a random drink generator.
-            A Front End application using JavaScript, JQuery, JQueryUI, BootStrap, AJAX plus theCocktaildb and Spoonacular APIs.    <a href="https://kimberlitompkins.github.io/BoozyFood/">Check it out</a>
-            </p>
-          
-            <a href="https://github.com/KimberliTompkins/BoozyFood">Github</a>
-            <p>Contributors: Kimberi Tompkins, Ryan Siverson, Samantha Scott </p>
-          </div>
-          <div className="col-md-5">
-          <a href="https://kimberlitompkins.github.io/BoozyFood/"><img src="/Images/BoozyFood.jpg" alt="BoozyFood" class="img-thumbnail"></img></a>
-          </div>
-        </div> */}
-      </div>
+        </div>
      
     );
  

@@ -34,10 +34,19 @@ function Hero() {
                 >
                   <ion-icon name="logo-linkedin"></ion-icon> Linkedin
                 </a>
+                <br/>
+                <a
+                  href="/resume.pdf"
+                  class="list-group-item-action headliner "
+                  target="_blank"
+                >
+                  <ion-icon name="document-text-outline"></ion-icon> Resume
+                </a>
               </div>
             </div>
           </div>
-        </div>
+        </div> 
+  
       </div>
     </section>
   );

@@ -5,7 +5,7 @@ import Hero from "./components/Hero/index";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer/index";
 import Contact from "./components/Contact/index";
-import NavTabs from "./components/NavTabs/index";
+
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Hero />
         <Contact />
         <Projects />
-        {/* <Footer /> */}
+        <Footer />
       </Route>
     </Router>
   );
